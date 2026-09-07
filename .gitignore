@@ -1,0 +1,15 @@
+# ====== TUYỆT MẬT — KHÔNG BAO GIỜ commit / phát đi ======
+keys/
+*.pem
+private_key*
+
+# License đã cấp cho từng nhân viên (không cần lên git)
+licenses/
+*.key
+machine_id.txt
+
+# Sản phẩm build (chứa cả keys/ private key trong dist → tuyệt đối không commit)
+build/
+dist/
+test_out/
+__pycache__/
